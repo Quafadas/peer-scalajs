@@ -1,4 +1,4 @@
-package com.nicolaswinsten.peerscalajs
+package io.github.quafadas.peerscalajs
 
 import org.scalajs.dom.experimental.mediastream.MediaStream
 

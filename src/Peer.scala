@@ -1,12 +1,12 @@
-package com.nicolaswinsten.peerscalajs
+package io.github.quafadas.peerscalajs
 
 import org.scalajs.dom.experimental.mediastream.MediaStream
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSGlobal
+import scala.scalajs.js.annotation.JSImport
 
 @js.native
-@JSGlobal
+@JSImport("mod.js", JSImport.Namespace)
 class Peer extends js.Object {
   def this(id: String = ???, options: js.Object = ???) = this()
   def connect(id: String, options: js.Object = ???): DataConnection                     = js.native

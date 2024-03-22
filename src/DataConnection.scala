@@ -1,4 +1,4 @@
-package com.nicolaswinsten.peerscalajs
+package io.github.quafadas.peerscalajs
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSGlobal
