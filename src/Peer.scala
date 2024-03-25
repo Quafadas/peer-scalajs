@@ -6,7 +6,7 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.JSImport
 
 @js.native
-@JSImport("mod.js", JSImport.Namespace)
+@JSImport("@peerJs/dist", "Peer")
 class Peer extends js.Object {
   def this(id: String = ???, options: js.Object = ???) = this()
   def connect(id: String, options: js.Object = ???): DataConnection                     = js.native
