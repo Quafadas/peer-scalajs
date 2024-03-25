@@ -1,6 +1,0 @@
-//> using publish.name "peer-scalajs"
-//> using publish.computeVersion "git:tag"
-//> using publish.license "Apache-2.0"
-//> using publish.url "https://github.com/quafadas/peer-scalajs"
-//> using publish.versionControl "github:quafadas/peer-scalajs"
-//> using publish.developer "Simon Parten||https://github.com/Quafadas"
